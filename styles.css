@@ -1,5 +1,8 @@
 body {
-   background: none !important;
+   background-image: url("WidgetCoLogo.gif");
+   background-attachment: fixed;
+  background-position: center;
+   background-repeat: no-repeat;
    height: 100%;
    margin: 20px;
    padding: 0;
@@ -46,15 +49,14 @@ h1 {
 }
 
 h2 {
+   
     font-style: italic;
    font-size: 30px;
    text-align:center;
   
 }
 p {
-  background-image: url("WidgetCoLogo.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
+
    padding-left: 200px;
    padding-right:200px;
    text-align: justify;
